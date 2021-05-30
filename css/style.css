@@ -1,0 +1,111 @@
+body {
+  background-color: rgb(215, 215, 247) !important;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  margin: 0px;
+  border-radius: 5px;
+}
+.logn {
+  background-color: rgb(70, 163, 250);
+  padding: 3px 20px !important;
+  border-radius: 15px;
+  color: white;
+}
+
+.links a {
+  padding: 0px 7px;
+}
+
+.search-box {
+  display: flex;
+}
+
+.search {
+  display: flex;
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 5px;
+  margin: 0px 15px;
+  margin-left: 50px;
+}
+
+.searc {
+  width: 80vw;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+
+.love {
+  padding: 15px;
+  color: rgb(70, 163, 250);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.filter {
+  border-left: 1px gray solid;
+}
+.header {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.row-one {
+  margin: 30px 50px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  /* border-radius: 50%; */
+  position: relative;
+}
+
+.row img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 40px;
+}
+
+.col {
+  height: 300px !important;
+  position: relative;
+}
+
+h5 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.col p {
+  text-align: center;
+}
+span {
+  position: relative;
+}
+.star {
+  position: absolute;
+  left: 100px;
+  margin-bottom: 300px;
+}
+
+.heart {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.checked {
+  color: yellow;
+}
